@@ -1,0 +1,117 @@
+.imoveis{
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-column: 2/4;
+  grid-row: 4;
+}
+
+
+.aps{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-column: 2/4;
+  grid-row: 4;
+  background-color: var(--grey);
+ 
+}
+.linhatexto{
+  width: auto;
+  margin: auto;
+  font-size: 1.5vw;
+  color: var(--grey);
+  font-family: var(--roboto);
+  letter-spacing: .1vw;
+}
+
+.informacoes{
+  margin: 1vw;
+  text-align: center;
+  font-family: 'rubik';
+  position: relative; 
+}
+
+.informacoes img{
+  border: solid 2px rgb(115, 115, 115);
+  max-width: 25vw;
+  margin: auto;
+  
+}
+
+.informacoes h2{
+  color: #AF3241;
+  font-size: 1.5vw;
+  }
+
+  #icon{
+    max-width: 2vw;
+    border: none;
+    margin: 0px;
+    padding: 0px;   
+  }
+  .icons{
+    position: relative;
+    left: 3vw;
+  }
+ 
+  .conexao{
+    display:grid;
+    grid-template-columns: 1fr 15fr;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    margin-left: 3vw;
+  }
+  .conexao h3, p{
+   margin: .4vw ;
+   text-align: left;
+   width: 100%;
+   height: auto;
+   color: #E91B2A;
+   font-size: 1vw; 
+
+  }
+
+  .linhabranca{
+    display:flex;
+    height: 2vw;
+    background: var(--darkred);
+    max-width: 100%;
+    margin-top: 10px;   
+  }
+
+  .linhabranca2{
+    display:flex;
+    height: 2vw;
+    background:var(--darkred);
+    max-width: 100%;     
+  }
+
+  .linha3{
+    box-shadow:  0px -.6vw rgb(0, 0, 0);
+  /*   sombra superior na parte dos apartamentos */
+  }
+
+  .linhavertical{
+    position: absolute;
+    display: inline;
+    border-left: .2vw solid rgb(255, 255, 255);
+    height: 27vw;
+    margin-left: -20vw; 
+  }
+
+/*   .linha3 div{
+    display: flex;
+  } */
+/*   .separador{
+    grid-row: 5;
+    grid-column: 2/4;
+    z-index: +1000;
+    height: 2px;
+  } */
+/*   .separador2{
+display: block;
+    z-index: +1000;
+    height: 2px;
+    
+  } */

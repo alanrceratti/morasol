@@ -1,5 +1,6 @@
 :root {
   --red: #FF000A;
+  --darkred: #AD0E0F;
   --grey: #F6F6F6;
   --rubik: "rubik", sans-serif;
   --roboto: "roboto", sans-serif;
@@ -25,7 +26,7 @@ img{
 .main-grid{
   display: grid;
   grid-template-columns:10vw auto auto 10vw;
-  grid-template-rows: auto auto auto auto auto auto;
+  grid-template-rows: auto;
 
 }
 
@@ -99,16 +100,20 @@ color: #0068B8;
 padding: 5px;
 margin: 10px;
 }
+
 .lista li{
   transition: transform .6s;
-
+  
 }
 
 .lista li:hover{
   transform: scale(1.4);
+  
+  
   }
 .lista li a:hover{
   color: var(--red);
+  border-bottom: 1px solid red;
 }
 
 /* @keyframes zoom {
@@ -186,63 +191,6 @@ padding: 10px;
   transition-duration: .5s;
 }
 
-.aps{
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-column: 2/4;
-  grid-row: 4;
-  background-color: var(--grey);
-}
-
-.informacoes{
-  margin: 25px;
-  text-align: center;
-  font-family: 'rubik';
-  position: relative; 
-}
-
-.informacoes img{
-  border: solid 2px rgb(115, 115, 115);
-  max-width: 80%;
-  margin: auto;  
-}
-
-.informacoes h1{
-  color: #000000; 
-  font-size: 1.5vw;  
-
-}
-
-.informacoes h2{
-  color: #AF3241;
-  font-size: 2vw;
-  }
-
-  #icon{
-    max-width: 2vw;
-    border: none;
-    margin: 0px;
-    padding: 0px;   
-  }
- 
-  .conexao{
-    display:grid;
-    grid-template-columns: 1fr 15fr;
-    display: flex;
-    justify-content: left;
-    align-items: center;
-    margin-left: 3vw;
-  }
-  .conexao h3, p{
-
-   padding: .7vw ;
-   text-align: left;
-   width: 100%;
-   height: auto;
-   color: #E91B2A;
-   font-size: 1vw; 
-
-  }
 
 .sobre{
   grid-template-columns: 1fr 1fr;
@@ -288,25 +236,7 @@ padding: 10px;
   display: block;
   margin: 2vw 0px;
 }
-.linhabranca{
-  height: 10px;
-  background: rgb(255, 255, 255);
-  max-width: 100%;
-  margin: 0px;
 
-}
-.separador{
-  grid-row: 5;
-  grid-column: 2/4;
-  z-index: +1000;
-  height: 2px;
-}
-.separador2{
-  grid-row: 4;
-  grid-column: 2/4;
-  z-index: +1000;
-  height: 2px;
-}
 
 .footer{
   grid-column: 2/4;

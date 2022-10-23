@@ -192,24 +192,29 @@
   #icon{
     max-width: 35px;
     border: none;
- 
+    margin: 0px;
+    padding: 0px;
    
   }
   .icons{
-    
- 
+    grid-column: 1/2;
+    text-align: right;
+  
    }
   
   .valor h3, p{  
+    grid-column: 2/3;
+    text-align: left;
+    margin: 20px 10px;
     color: #E91B2A;
     font-size: 1vw;  
     align-items: center;    
   }
   .conexao{
-
+    display: inline-block;
   }
   .teste{
-    display: block;
+    display: grid;
     grid-template-columns: 1fr 15fr;
     margin-left: 3.5vw;
       }
