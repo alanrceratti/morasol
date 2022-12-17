@@ -12,4 +12,4 @@ The technologies that will be used are:
     HTML, CSS, JavaScript, Django and Python.
 
 
-As I am still learning new technologies, this project is temporarly paused for me to do a better codding in the future.
+
